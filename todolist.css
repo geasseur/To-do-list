@@ -51,16 +51,21 @@ h2{ /*titre des semaines*/
   border-style: ridge;
   border-color: black;
   border-width: 3px;
-  margin:0;
-  padding: 0;
+  margin-left: 20%;
 }
 
-ol{
-  margin:0;
-
+#cv{
+  position: relative;
+  bottom: 20px;
 }
 
-#fait{
+#divertissement{
+  position: relative;
+  bottom:20px;
+}
+
+
+#fait{ /* modif de la case "fait" */
   margin-left: 35%;
   background-color: green;
   width: 75px;
