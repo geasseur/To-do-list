@@ -1,0 +1,78 @@
+header{
+  background-color: #64f7f2;
+  border-style:solid;
+  border-color: #be64f7;
+  border-width: 3px;
+}
+
+header h1{
+  text-align: center;
+  font-family: Arial;
+}
+
+h3{
+  background-color: green;
+  font-family: Verdana;
+  text-align: center;
+  color:white;
+  height: 50px;
+  margin-top:-3px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+h2{
+  text-align: center;
+
+}
+.semaine{
+  background-color: #53a8ff;
+}
+
+.projet{
+  display: inline-block;
+  height: 200px;
+  width: 250px;
+  background-color: white;
+  border-style: ridge;
+  border-color: black;
+  border-width: 3px;
+  margin:2em;
+  margin-left: 18em;
+}
+
+#CV{
+  
+}
+
+#fait{
+  margin-left: 35%;
+  background-color: green;
+  width: 75px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:black;
+  text-align: center;
+}
+
+.fait{
+  text-decoration: line-through;
+}
+
+.encours{
+  margin-left: 35%;
+  background-color: red;
+  width: 75px;
+  border-style: solid;
+  border-width: 2px;
+  border-color:black;
+}
+
+
+footer{
+  background-color: yellow;
+  height: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
