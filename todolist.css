@@ -1,4 +1,4 @@
-body{
+body{ /*Met une couleur de fond*/
   background-color: #ffefc3;
 }
 
@@ -12,13 +12,13 @@ header{ /*entête*/
 
 header h1{ /*titre entête*/
   text-align: center;
-  font-family: Satans;
+  font-family: Arial;
   text-decoration: underline;
 }
 
 h3{ /* Les titres des différents projets*/
   background-color: green;
-  font-family: Satans;
+  font-family: Arial;
   text-align: center;
   color:black;
   height: 50px;
@@ -30,7 +30,7 @@ h3{ /* Les titres des différents projets*/
 }
 
 h2{ /*titre des semaines*/
-  font-family: Satans;
+  font-family: Arial;
   text-align: center;
   border-style: solid;
   border-width: 3px;
@@ -74,12 +74,12 @@ h2{ /*titre des semaines*/
   box-shadow: 3px 3px 5px 4px black;
 }
 
-#cv{
+#cv{ /*modifie la position pour l'aligner avec l'autre*/
   position: relative;
   bottom: 20px;
 }
 
-#divertissement{
+#divertissement{ /*modifie la position pour l'aligner avec l'autre*/
   position: relative;
   bottom:20px;
 }
@@ -95,17 +95,21 @@ h2{ /*titre des semaines*/
   text-align: center;
 }
 
-.fait{
+.fait{/* barre la liste pour les course*/
   text-decoration: line-through;
+}
+
+li{
+  font-family: Arial;
 }
 
 li:active{ /*j'espérais pouvoir cocher les listes directement
  sur la page web, mais ni focus, ni visited ne fonctionne*/
   text-decoration: line-through;
+  font-family: Arial;
 }
 
-
-.encours{
+.encours{ /*mise en forme des cases en cours/fait*/
   text-align: center;
   margin-left: 35%;
   background-color: red;
@@ -116,10 +120,11 @@ li:active{ /*j'espérais pouvoir cocher les listes directement
 }
 
 
-footer{
+footer{ /*mise en forme du footer en bas de la page*/
   background-color: #c3ecff;
   height: 40px;
   margin-top: 20px;
   text-align: center;
   box-shadow: 3px 3px 5px 4px black;
+  font-family: Arial;
 }
