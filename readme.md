@@ -1,4 +1,4 @@
-#Readme pour la to do list
+# Readme pour la to do list
 
 Ceci est un premier projet pour Simplon.
 
